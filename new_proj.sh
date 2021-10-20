@@ -22,7 +22,7 @@ touch $PROJECT_DIR/Makefile
 cat > $PROJECT_DIR/Makefile << EOF
 
 CC			=	gcc
-CFLAGS 		=	-Wall -g -I
+CFLAGS		=	-Wall -g -I
 
 # directories definitions:
 BUILD_DIR	=	build
@@ -31,8 +31,8 @@ SRC_DIR		=	src
 
 SRC_FILES	=	\$(BUILD_DIR)/.c
 
-OBJECT_FILES	=	\$(SRC_FILES:.c=.o)
-HEADER_FILES	=	\$(wildcard \$(INCLUDE_DIR)/*.h)
+OBJECT_FILES=	\$(SRC_FILES:.c=.o)
+HEADER_FILES=	\$(wildcard \$(INCLUDE_DIR)/*.h)
 
 \$(BUILD_DIR)/%.o: \$(SRC_DIR)/%.c \$(INCLUDE_DIR)/%.h
 	@\$(CC) \$(CFLAGS)\$(INCLUDE_DIR) -c \$< -o \$@
