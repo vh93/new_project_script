@@ -12,11 +12,13 @@ BUILD_DIR=build
 INCLUDE_DIR=include
 SRC_DIR=src
 
+# generating directories:
 mkdir	$PROJECT_DIR \
 		$PROJECT_DIR/$BUILD_DIR \
 		$PROJECT_DIR/$INCLUDE_DIR \
 		$PROJECT_DIR/$SRC_DIR
 
+# generating the Makefile:
 touch $PROJECT_DIR/Makefile
 
 cat > $PROJECT_DIR/Makefile << EOF
@@ -53,3 +55,19 @@ clean:
 delete_files:
 	@rm -f	\$(BUILD_DIR)/* \$(SRC_DIR)/* \$(INCLUDE_DIR)/*
 EOF
+
+# generating the .gitignore file:
+if [ "$2" = "-i" ]; then
+	touch $PROJECT_DIR/.gitignore
+	cat > $PROJECT_DIR/.gitignore << EOF
+# The gitignore file specifies intentionally untracked files that Git
+# should ignore.
+#
+
+*
+!Makefile
+!*.c
+!*.h
+!*/
+EOF
+fi
