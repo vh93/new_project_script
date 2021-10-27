@@ -12,7 +12,9 @@ Example:												<br>
 		result:
 <br>
 &emsp;&emsp;
+<code>
 			foo_prj_name/
+</code>
 <br>
 &emsp;&emsp;
 			|-Makefile
