@@ -8,7 +8,7 @@ We assume that default new project is written on C language; <br>
 <br>
 <code>foo_prj_name/</code>
 <br>
-<code>|--Makefile</code>
+<code>|__Makefile</code>
 <br>
 <code>|--.gitignore</code>
 <br>
