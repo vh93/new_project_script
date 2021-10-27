@@ -8,7 +8,8 @@ We assume that default new project is written on C language; <br>
 &emsp;
 	command:
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
 	./new_project foo_prj_name -i
 </code>
@@ -17,32 +18,38 @@ We assume that default new project is written on C language; <br>
 &emsp;
 	result:
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
 	foo_prj_name/
 </code>
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
-	|__Makefile
+	|- Makefile
 </code>
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
-	|__.gitignore
+	|- .gitignore
 </code>
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
-	|__build/
+	|- build/
 </code>
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
-	|__include/
+	|- include/
 </code>
 <br>
-&emsp;&emsp;
+&emsp;
+&emsp;
 <code>
-	|__src/
+	|- src/
 </code>
