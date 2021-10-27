@@ -4,7 +4,7 @@ We assume that default new project is written on C language; <br>
 <br>
 Example:										<br>
 &emsp;			command: 						<br>
-&emsp;&emsp;	./new_project foo_prj_name -i	<br>
+&emsp;&emsp;<code>./new_project foo_prj_name -i</code>	<br>
 &emsp;			result:							<br>
 &emsp;&emsp;	foo_prj_name/					<br>
 &emsp;&emsp;	|-Makefile						<br>
