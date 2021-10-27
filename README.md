@@ -24,30 +24,25 @@ We assume that default new project is written on C language; <br>
 <br>
 &emsp;&emsp;
 <code>
-	|-Makefile
+	|- Makefile
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|-.gitignore
+	|- .gitignore
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|
+	| -build/
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|-build/
+	| -include/
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|-include/
-</code>
-<br>
-&emsp;&emsp;
-<code>
-	|-src/
+	| -src/
 </code>
