@@ -24,25 +24,25 @@ We assume that default new project is written on C language; <br>
 <br>
 &emsp;&emsp;
 <code>
-	|_Makefile
+	|__Makefile
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|_.gitignore
+	|__.gitignore
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|_build/
+	|__build/
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|_include/
+	|__include/
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	|_src/
+	|__src/
 </code>
