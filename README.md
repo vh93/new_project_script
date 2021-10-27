@@ -34,15 +34,15 @@ We assume that default new project is written on C language; <br>
 <br>
 &emsp;&emsp;
 <code>
-	| -build/
+	|- build/
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	| -include/
+	|- include/
 </code>
 <br>
 &emsp;&emsp;
 <code>
-	| -src/
+	|- src/
 </code>
