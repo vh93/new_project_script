@@ -12,8 +12,8 @@ We assume that default new project is written on C language; <br>
 <br>
 <code>|_.gitignore</code>
 <br>
-<code>|_build/</code>
+<code>|__build/</code>
 <br>
-<code>|_include/</code>
+<code>|__include/</code>
 <br>
-<code>|_src/</code>
+<code>|__src/</code>
