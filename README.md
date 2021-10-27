@@ -11,7 +11,6 @@ Example:												<br>
 &emsp;
 		result:
 <br>
-<code>
 &emsp;&emsp;
 			foo_prj_name/
 <br>
@@ -32,4 +31,3 @@ Example:												<br>
 <br>
 &emsp;&emsp;
 			|-src/
-</code>
