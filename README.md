@@ -8,13 +8,28 @@ Example:												<br>
 <code>
 	./new_project foo_prj_name -i
 </code><br>
-&emsp;			result:									<br>
+&emsp;
+		result:
+<br>
 <code>
-&emsp;&emsp;	foo_prj_name/							<br>
-&emsp;&emsp;	|-Makefile								<br>
-&emsp;&emsp;	|-.gitignore							<br>
-&emsp;&emsp;	|										<br>
-&emsp;&emsp;	|-build/								<br>
-&emsp;&emsp;	|-include/								<br>
-&emsp;&emsp;	|-src/
+&emsp;&emsp;
+			foo_prj_name/
+<br>
+&emsp;&emsp;
+			|-Makefile
+<br>
+&emsp;&emsp;
+			|-.gitignore
+<br>
+&emsp;&emsp;
+			|
+<br>
+&emsp;&emsp;
+			|-build/
+<br>
+&emsp;&emsp;
+			|-include/
+<br>
+&emsp;&emsp;
+			|-src/
 </code>
