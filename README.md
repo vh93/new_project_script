@@ -14,7 +14,6 @@ We assume that default new project is written on C language; <br>
 <br>
 <code>|__build/</code>
 <br>
-<code>
-|__include/
+<code>|__include/
 <br>
 |__src/</code>
