@@ -10,10 +10,10 @@ We assume that default new project is written on C language; <br>
 <br>
 <code>|__Makefile</code>
 <br>
-<code>|--.gitignore</code>
+<code>|__.gitignore</code>
 <br>
-<code>|--build/</code>
+<code>|__build/</code>
 <br>
-<code>|--include/</code>
+<code>|__include/</code>
 <br>
-<code>|--src/</code>
+<code>|__src/</code>
