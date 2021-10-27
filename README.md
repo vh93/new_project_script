@@ -4,7 +4,6 @@ We assume that default new project is written on C language; <br>
 <br>
 	Example:
 <br>
-
 	command:
 <br>
 <code>
