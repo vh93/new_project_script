@@ -18,7 +18,7 @@ We assume that default new project is written on C language; <br>
 <br>
 <code>|__src/</code> <br>
 <br>
-Note, that if you would like to have a singe-file project, you should
+Note, that if you want to have a singe-file project, you should
 <br>
 comment out the<code>$(OBJECT_FILES)</code>part on the line 22
 in the Makefile:
