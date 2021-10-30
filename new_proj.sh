@@ -31,9 +31,12 @@ BUILD_DIR	=	build
 INCLUDE_DIR	=	include
 SRC_DIR		=	src
 
-SRC_FILES	=	\$(BUILD_DIR)/.c
+# modules enumeration:
+SRC_FILES	=	\$(SRC_DIR)/.c
 
-OBJECT_FILES=	\$(SRC_FILES:.c=.o)
+# set object files to the build directory:
+OBJECT_FILES=	\$(subst \$(SRC_DIR),\$(BUILD_DIR),\$(SRC_FILES:.c=.o))
+
 HEADER_FILES=	\$(wildcard \$(INCLUDE_DIR)/*.h)
 
 \$(BUILD_DIR)/%.o: \$(SRC_DIR)/%.c \$(INCLUDE_DIR)/%.h
