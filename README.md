@@ -1,6 +1,7 @@
 Current script generates initial directories structure,
 including a Makefile; <br>
-Optionally with<code>-i</code>flag you can generate the gitignore file; <br>
+Optionally with <code>-i</code> flag you can generate the gitignore
+file; <br>
 We assume that default new project is written on C language; <br>
 <br>command:
 <br>
