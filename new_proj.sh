@@ -33,7 +33,6 @@ EOF
 touch $PROJECT_DIR/Makefile
 
 cat > $PROJECT_DIR/Makefile << EOF
-
 CC			=	gcc
 CFLAGS		=	-Wall -g -I
 
@@ -85,3 +84,13 @@ if [ "$2" = "-i" ]; then
 !*/
 EOF
 fi
+
+# generating the open_files.sh script:
+touch $PROJECT_DIR/open_files.sh
+cat > $PROJECT_DIR/open_files.sh<< EOF
+#!/bin/bash
+vim \$(find . -name 'Makefile' -o -name '*.h' -o -name '*.c')
+EOF
+
+# make the open_files.sh file executable:
+chmod +x $PROJECT_DIR/open_files.sh
