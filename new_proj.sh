@@ -70,7 +70,6 @@ delete_files:
 EOF
 
 # generating the .gitignore file:
-if [ "$2" = "-i" ]; then
 	touch $PROJECT_DIR/.gitignore
 	cat > $PROJECT_DIR/.gitignore << EOF
 # The gitignore file specifies intentionally untracked files that Git
@@ -83,4 +82,3 @@ if [ "$2" = "-i" ]; then
 !*.h
 !*/
 EOF
-fi
