@@ -23,9 +23,9 @@ We assume that default new project is written on C language; <br>
 <br>
 Note, that if you want to have a singe-file project, you should
 <br>
-comment out the<code>$(OBJECT_FILES)</code>part on the line 22
+comment out the<code>$(OBJECT_FILES)</code>part on the line 21
 in the Makefile:
 <br>
-<code>21  #targets:</code><br>
-<code>22  foo_prj_name: $(SRC_DIR)/foo_prj_name.c #$(OBJECT_FILES)
+<code>20  # targets:</code><br>
+<code>21  foo_prj_name: $(SRC_DIR)/foo_prj_name.c #$(OBJECT_FILES)
 </code>
