@@ -6,7 +6,7 @@ Current script generates: <br>
 We assume that default new project is written on C language; <br>
 <br>command:
 <br>
-<code>./new_project foo_prj_name -i</code>
+<code>./new_project foo_prj_name</code>
 <br>result:
 <br>
 <code>foo_prj_name/</code>
